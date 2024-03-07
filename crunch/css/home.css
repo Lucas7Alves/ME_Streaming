@@ -1,9 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
-body {
-  font-family: L;
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
-
+body {
+  font-family: "Lato", sans-serif;
+}
 .navbar {
   background-color: #23252B;
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+}
+
+a{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  
+}
+.Crun{
+  width: 200px;
+}
+
+.menub {
+  width: 40px;
+}
+.ver{
+  color: black;
+  background-color: #F47521;
+  padding: 8px;
+}
+p{
+  text-align: start;
+  flex-wrap: wrap;
 }
