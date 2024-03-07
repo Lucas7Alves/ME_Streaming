@@ -1,16 +1,57 @@
+* {
+}
+
 .lato-regular {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 body {
+  color: white;
   font-family: "Lato", sans-serif;
+  background-color: #000000;
+  margin: 0px;
 }
 .navbar {
   background-color: #23252B;
   display: flex;
   justify-content: start;
   gap: 20px;
+}
+
+.top3 {
+  margin-top: 70px;
+  display: grid;
+}
+
+.top3_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.film_recent {
+  margin-top: 70px;
+  display: grid;
+}
+
+.filrec_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  row-gap: 20px;
+}
+
+.serie_recent {
+  margin-top: 70px;
+  display: grid;
+}
+
+.serec_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  row-gap: 20px;
 }
 
 a{
@@ -34,4 +75,43 @@ a{
 p{
   text-align: start;
   flex-wrap: wrap;
+}
+
+.foot {
+  margin-top: 40px;
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 60px;
+  color: #a0a0a0;
+}
+
+.final_box {
+  display: flex;
+  gap: 10px;
+}
+
+.logo_sony {
+  margin-top: 5px;
+  width: 158px;
+  height: 12px;
+}
+
+.final_box > p {
+  margin: 0px;
+  color: #a0a0a0;
+}
+
+.ajuste {
+  font-weight: 500;
+}
+
+.degrade {
+  background-image: linear-gradient(
+    #000000, #213944
+  );
+}
+
+.contrast {
+  color: white;
+  font-weight: 700;
 }
