@@ -70,11 +70,18 @@ a{
 .ver{
   color: black;
   background-color: #F47521;
-  padding: 8px;
+  padding: 14px;
+  grid-column: 1/2;
+  justify-self: start;
+  width: 320px;
+  position: relative;
+  left: 20px;
 }
-p{
+.sinopse{
   text-align: start;
-  flex-wrap: wrap;
+  grid-column: 1/2;
+  position: relative;
+  left: 20px;
 }
 
 .foot {
@@ -114,4 +121,36 @@ p{
 .contrast {
   color: white;
   font-weight: 700;
+}
+.Animeprin{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  position: relative;
+}
+.jujutsu{
+  width: 500px;
+  position: relative;
+  left: 20px;
+}
+.idade{
+  width: 30px;
+  grid-column: 1/2;
+  position: absolute;
+  top: 140px;
+  left: 20px;
+}
+.ling{
+  text-align: start;
+  grid-column: 1/2;
+  position: relative;
+  left: 60px;
+}
+.seta{
+  font-size: 30px;
+  position: relative;
+  bottom: -3px;
+}
+.com{
+  position: relative;
+  left: 10px;
 }
