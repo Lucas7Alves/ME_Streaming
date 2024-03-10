@@ -43,6 +43,8 @@ a{
 .final_box {
   display: flex;
   gap: 10px;
+  padding: 20px 0px 40px 0px;
+
 }
 
 .logo_sony {
@@ -85,4 +87,15 @@ a{
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+hr {
+  height: 0.3px;
+  border: none;
+  background-color: #a0a0a0;
+  opacity: 0.3;
+}
+
+.tiny {
+  opacity: 0.3;
 }
