@@ -14,27 +14,25 @@ body {
 }
 
 .film {
-  width: 300px;
-  height: 400px;
+  width: 200px;
 }
 
 .navbar {
-  background-color: #23252B;
+  background-color: #23252b;
   display: flex;
   justify-content: start;
   gap: 20px;
 }
 
-a{
+a {
   color: white;
   font-size: 20px;
   text-decoration: none;
-  
 }
 
 .foot {
   margin-top: 40px;
-  display: grid; 
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 60px;
   color: #a0a0a0;
@@ -64,9 +62,7 @@ a{
 .degrade {
   display: grid;
   justify-items: center;
-  background-image: linear-gradient(
-    #000000, #213944
-  );
+  background-image: linear-gradient(#000000, #213944);
 }
 
 .centra {
@@ -78,7 +74,7 @@ a{
   font-weight: 700;
 }
 
-.Crun{
+.Crun {
   width: 200px;
 }
 
@@ -98,11 +94,10 @@ hr {
 .tiny {
   opacity: 0.3;
 }
-.leg{
+.leg {
   color: #7e7e80;
-  
 }
-h1{
+h1 {
   position: relative;
-  left: 140px;
+  left: 120px;
 }

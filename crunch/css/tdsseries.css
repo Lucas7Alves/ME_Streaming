@@ -9,7 +9,7 @@ h1 {
   position: relative;
   font-size: 28px;
   margin: 0px;
-  right: 50px;
+  right: -105px;
 }
 
 p {
@@ -31,8 +31,10 @@ p {
 
 .grid {
   display: grid;
-  grid-template-columns: 200px 1fr 1fr 1fr 1fr;
+  grid-template-columns: 300px 1fr 1fr 1fr 1fr;
   gap: 80px;
+  position: relative;
+  bottom: -30px;
 }
 
 .tam {
@@ -69,19 +71,14 @@ p {
 }
 
 .film {
-  width: 300px;
-  height: 400px;
-  
-}
+  width: 200px;
+ }
 
 .navbar {
   background-color: #23252B;
   display: flex;
   justify-content: start;
   gap: 20px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  margin-bottom: 80px;
 }
 
 a{
@@ -156,4 +153,7 @@ hr {
 
 .tiny {
   opacity: 0.3;
+}
+.leg{
+  color: #7e7e80;
 }
