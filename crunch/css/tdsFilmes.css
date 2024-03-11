@@ -98,3 +98,11 @@ hr {
 .tiny {
   opacity: 0.3;
 }
+.leg{
+  color: #7e7e80;
+  
+}
+h1{
+  position: relative;
+  left: 140px;
+}
