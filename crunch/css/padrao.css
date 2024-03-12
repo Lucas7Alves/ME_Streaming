@@ -1,0 +1,87 @@
+.navbar {
+  background-color: #23252B;
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  
+}
+
+.Crun{
+  width: 200px;
+}
+
+/* footer */
+
+.foot {
+  margin-top: 40px;
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 60px;
+  color: #a0a0a0;
+}
+
+hr {
+  height: 0.3px;
+  border: none;
+  background-color: #a0a0a0;
+  opacity: 0.3;
+}
+
+.tiny {
+  opacity: 0.3;
+}
+
+.degrade {
+  display: grid;
+  justify-items: center;
+  background-image: linear-gradient(
+    #000000, #213944
+  );
+}
+
+.centra {
+  width: 1100px;
+}
+
+.contrast {
+  color: white;
+  font-weight: 700;
+}
+
+.final_box {
+  display: flex;
+  gap: 10px;
+  padding: 20px 0px 40px 0px;
+}
+
+.logo_sony {
+  margin-top: 5px;
+  width: 158px;
+  height: 12px;
+}
+
+.final_box > p {
+  margin: 0px;
+  color: #a0a0a0;
+}
+
+.box1 > p, .box2 > p, .box3 > p, .box4 > p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.ajuste {
+  font-weight: 500;
+}
