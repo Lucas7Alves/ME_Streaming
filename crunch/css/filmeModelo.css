@@ -1,0 +1,46 @@
+.geral {
+  margin-top: 40px;
+  display: grid;
+  padding: 70px;
+}
+
+.modelo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 50px;
+}
+
+.modeloLeft {
+  max-width: 50%;
+  padding-left: 150px;
+}
+
+#titulo {
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.light {
+  opacity: 0.7;
+  font-weight: 100;
+}
+
+.ano {
+  font-size: 18px;
+}
+
+#categoria {
+  font-size: 12px;
+  padding: 8px;
+  background-color: #2A2F3E;
+  border-radius: 14px;
+}
+
+.txtArea {
+  background-color: #141519;
+  border: #36373A solid 1px;
+  padding: 12px;
+  
+}
+
+

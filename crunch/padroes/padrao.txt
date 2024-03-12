@@ -1,15 +1,20 @@
 barrra de navegação⬇️
 
-<nav class="navbar">
-  <a href="home.html"><img class="Crun" src="imgs/Crunchyroll.svg.png" alt="Crunchyroll"></a>
-  <a href="todasasseries.html">Séries</a>
-  <a href="todosFilmes.html">Filmes</a>
-</nav>
+<header>
+  <nav class="navbar">
+    <a href="home.html"><img class="Crun" src="imgs/Crunchyroll.svg.png" alt="Crunchyroll"></a>
+    <a href="todasasseries.html">Séries</a>
+    <a href="todosFilmes.html">Filmes</a>
+  </nav>
+</header>
 
 
 Roda pé ⬇️
 
- <footer class="foot">
+   <div class="degrade">
+    <div class="centra">
+      <!-- roda pé -->
+      <footer class="foot">
         <div class="box1">
           <p class="contrast">Navegação</p>
           <p>Séries Populares</p>
@@ -47,6 +52,7 @@ Roda pé ⬇️
           <p>Sair</p>
         </div>
       </footer>
+      <!-- "pós roda pe" -->
       <hr class="linha">
       <div class="final_box">
         <img class="logo_sony" src="imgs/sony_pictures_logo.png" alt="">
