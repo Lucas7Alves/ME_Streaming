@@ -13,6 +13,7 @@
 .modeloLeft {
   max-width: 50%;
   padding-left: 150px;
+  width: 200px;
 }
 
 #titulo {
@@ -32,15 +33,82 @@
 #categoria {
   font-size: 12px;
   padding: 8px;
-  background-color: #2A2F3E;
+  background-color: #2a2f3e;
   border-radius: 14px;
 }
 
 .txtArea {
   background-color: #141519;
-  border: #36373A solid 1px;
+  border: #36373a solid 1px;
   padding: 12px;
+}
+h2 {
+  font-size: 17px;
+  color: orangered;
+  cursor: pointer;
+}
+.num {
+  font-size: 12px;
+  color: #adaeb1;
+  cursor:default;
+}
+.barra {
+  color: #adaeb1;
+}
+.idade {
+  width: 20px;
+}
+.ling {
+  font-size: 15px;
+  color: #adaeb1;
+  position: relative;
+  left: 6px;
+  top: -4px;
+}
+.p {
+  font-size: 11px;
+  position: relative;
+  left: 6px;
+  top: -5px;
+}
+.salvar {
+  width: 18px;
+  position: relative;
+  left: 580px;
+  bottom: -37px;
+  cursor: pointer;
+}
+.lançou {
+  font-size: 15px;
+}
+.like {
+  width: 25px;
+  cursor:pointer;
   
 }
-
-
+.dislike {
+  width: 25px;
+  position: relative;
+  top: 1.5px;
+  left: 36px;
+  cursor: pointer;
+}
+.li {
+  font-size: 13px;
+  position: relative;
+  left: 4px;
+  color: #adaeb1;
+}
+.li1 {
+  font-size: 13px;
+  position: relative;
+  left: 40px;
+  top: -2px;
+  color: #adaeb1;
+}
+.comp {
+  width: 20px;
+  position: relative;
+  left: 477px;
+  cursor: pointer;
+}
