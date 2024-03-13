@@ -22,5 +22,8 @@ body {
 }
 h1 {
   position: relative;
+  max-width: max-content;
   left: 120px;
+  margin-top: 90px;
+  z-index: -999;
 }

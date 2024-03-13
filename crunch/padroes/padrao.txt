@@ -2,9 +2,18 @@ barrra de navegação⬇️
 
 <header>
   <nav class="navbar">
-    <a href="home.html"><img class="Crun" src="imgs/Crunchyroll.svg.png" alt="Crunchyroll"></a>
-    <a href="todasasseries.html">Séries</a>
-    <a href="todosFilmes.html">Filmes</a>
+    <div class="divLarger">
+      <a class="home" href="home.html"><img class="Crun" src="imgs/Crunchyroll.svg.png" alt="Crunchyroll"></a>
+      <a class="tdsS" href="todasasseries.html">Séries</a>
+      <a class="tdsF" href="todosFilmes.html">Filmes</a>
+      <div class="iconzinhos">
+        <img src="imgs/" alt="">
+      </div>
+      <div class="user">
+        <img class="iconuser" src="imgs/filme e serie modelo/nobara iconn.png" alt="user">
+        <span class="setinha">▾</span>
+      </div>
+    </div>
   </nav>
 </header>
 
