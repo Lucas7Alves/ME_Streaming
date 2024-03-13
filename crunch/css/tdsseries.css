@@ -12,9 +12,16 @@ h1 {
   right: -105px;
 }
 
+
+
 p {
   margin: 0px;
   font-family: "Lato", sans-serif;
+}
+
+#title {
+  margin-top: 90px;
+  margin-bottom: 50px;
 }
 
 #serie {
@@ -76,4 +83,5 @@ p {
 
 .leg{
   color: #7e7e80;
+  margin-bottom: 20px;
 }

@@ -11,6 +11,8 @@ body {
   grid-template-rows: 4;
   margin-top: 60px;
   justify-items: center;
+  padding: 0px 60px 0px 60px;
+  margin-bottom: 200px;
 }
 
 .film {
@@ -20,10 +22,64 @@ body {
 .leg {
   color: #7e7e80;
 }
+
 h1 {
   position: relative;
-  max-width: max-content;
-  left: 120px;
+  font-size: 28px;
+  margin: 0px;
+  right: -105px;
+}
+
+
+p {
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+}
+
+#title {
   margin-top: 90px;
-  z-index: -999;
+  margin-bottom: 50px;
+}
+
+#serie {
+  display: flex;
+  justify-self: start;
+  grid-column: 1/1;
+}
+
+.upbar {
+  display: grid;
+  gap: 100px;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 300px 1fr 1fr 1fr 1fr;
+  gap: 80px;
+  position: relative;
+  bottom: -30px;
+}
+
+.tam {
+  height: 20px;
+  margin-right: 10px;
+}
+
+.flex {
+  display: flex;
+  grid-column: 4;
+}
+
+.flex2 {
+  display: flex;
+  grid-column: 5;
+}
+
+.tamanho {
+  opacity: 0.8;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  justify-items: end;
 }
