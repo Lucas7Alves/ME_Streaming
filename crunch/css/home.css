@@ -37,15 +37,27 @@ h2 {
 .desca {
   grid-column: 1/1;
   grid-row: 2/2;
+  position: relative;
+  left:17px;
 }
 
 .desca1 {
   grid-column: 2;
   grid-row: 2/2;
+  position: relative;
+  left:37px;
 }
 .desca2 {
   grid-column: 3;
   grid-row: 2/2;
+  position: relative;
+  left:9px;
+  
+}
+.legen{
+  color: #adaeb1;
+  position: relative;
+  bottom: 10px;
 }
 
 .salvarr {
@@ -170,4 +182,8 @@ a {
   position: relative;
   left: 10px;
 }
-
+.tito{
+  position: relative;
+  left:60px;
+  padding: 40px;
+}
