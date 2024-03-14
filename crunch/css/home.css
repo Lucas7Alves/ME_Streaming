@@ -11,7 +11,8 @@ h2 {
 }
 
 .top1 {
-  max-width: 50%;
+  height: 307px;
+  width: 266px;
 }
 
 .banner {
@@ -26,7 +27,7 @@ h2 {
   position: relative;
   z-index: -999;
   left: 50px;
-  top: 30px;
+  top: 5px;
   font-size: 250px;
   color: white;
   font-family: "Lato", sans-serif;
@@ -45,6 +46,15 @@ h2 {
 .desca2 {
   grid-column: 3;
   grid-row: 2/2;
+}
+
+.salvarr {
+  grid-column: 1;
+  position: relative;
+  top: 140px;
+  max-width: 70px;
+  left: 340px;
+  cursor: pointer;
 }
 
 .top_3 {
@@ -112,10 +122,11 @@ a {
   padding: 8px 12px 8px 8px;
   grid-column: 1/2;
   justify-self: start;
-  width: 250px;
+  width: 300px;
   position: relative;
   left: 20px;
   top: 200px;
+  max-height: 50px;
 }
 .sinopse {
   text-align: start;

@@ -64,6 +64,7 @@ a {
   position: relative;
   right: 60px;
   height: 20px;
+  cursor: pointer;
 }
 
 .salvaB {
@@ -73,6 +74,7 @@ a {
   height: 20px;
   padding-top: 18px;
   padding-left: 40px;
+  cursor: pointer;
 }
 
 .caixinha {
@@ -92,6 +94,7 @@ a {
   padding-top: 6px;
   position: relative;
   right: 40px;
+  cursor: pointer;
 }
 
 .setinha {
