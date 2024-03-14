@@ -6,10 +6,6 @@ h2 {
   max-width: max-content;
 }
 
-.top1 {
-max-width: 50%;
-}
-
 .banner {
   position: absolute;
   z-index: -999;
@@ -49,7 +45,17 @@ max-width: 50%;
   display: grid;
   grid-template-rows: 2;
   padding-top: 250px;
+  padding-left: 150px;
 }
+
+.top1 {
+  height: 307px;
+  width: 204px;
+  }
+  
+  .a-img {
+    display: flex;
+  }
 
 .top3_content {
   display: grid;
@@ -145,5 +151,10 @@ a{
 .com{
   position: relative;
   left: 10px;
+}
+
+.leg{
+  color: #7e7e80;
+  margin-bottom: 20px;
 }
 
