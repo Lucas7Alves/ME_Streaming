@@ -1,7 +1,9 @@
 .geral {
-  margin-top: 40px;
+  /* margin-top: 40px; */
   display: grid;
-  padding: 70px;
+  padding: 0px 70px 70px 70px;
+  position: relative;
+  bottom: 80px;
 }
 
 .modelo {
@@ -10,13 +12,29 @@
   margin-bottom: 50px;
 }
 
+.conteudo {
+  padding-top: 60px;
+  position: relative;
+  z-index: -999;
+  width: 60%;
+  height: 500px;
+  padding-left: 300px;
+}
+
+.play {
+  padding-left: 80px;
+  position: relative;
+  bottom: 95px;
+}
+
 .modeloLeft {
   max-width: 50%;
   padding-left: 150px;
   width: 190px;
   position: relative;
-  left: 680px;
-  bottom: -85px;
+  left: 677px;
+  top: 75px;
+  cursor: pointer;
 }
 .modeloRight {
   position: relative;
@@ -81,8 +99,8 @@
 .salvar {
   width: 18px;
   position: relative;
-  left: 580px;
-  bottom: -37px;
+  left: 605px;
+  bottom: -38px;
   cursor: pointer;
 }
 .lançou {
@@ -214,6 +232,7 @@
 .mdcom {
   position: relative;
   left: 100px;
+  bottom: 190px;
 }
 .i {
   font-size: 21px;
@@ -228,11 +247,23 @@
 input:checked + .checkbox p {
   display: none;
 }
+input:checked + .checkbox p {
+  display: block;
+}
 input:checked + .checkbox hr {
+  display: none;
+}
+input:checked + .checkbox hr {
+  display: block;
+}
+hr {
   display: none;
 }
 
 input {
+  display: none;
+}
+.pp {
   display: none;
 }
 .audio {
@@ -254,6 +285,13 @@ input {
 }
 .mos {
   color: #adaeb1;
+  position: relative;
+  bottom: 20px;
+  cursor: pointer;
+}
+.checkbox{
+  position: relative;
+  bottom: 170px;
 }
 .eu {
   position: relative;
@@ -269,6 +307,35 @@ input {
 .prox {
   font-size: 18px;
   position: relative;
-  top: -340px;
+  max-width: max-content;
+  top: -323px;
   left: 668px;
+}
+
+.boxImg {
+  max-width: max-content;
+}
+.ep2 {
+  position: relative;
+  left: 873px;
+  bottom: 428px;
+}
+.lingua {
+  position: relative;
+  left: 873px;
+  bottom: 254px;
+  color: #adaeb1;
+}
+.vmais {
+  width: 290px;
+  position: relative;
+  left: 660px;
+  bottom: 220px;
+  cursor: pointer;
+}
+.lupa{
+  cursor: pointer;
+}
+.salvaB{
+  cursor: pointer;
 }

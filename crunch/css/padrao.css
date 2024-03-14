@@ -7,13 +7,13 @@ body {
 
 .divLarger {
   display: grid;
-  grid-template-columns:15% 5% 5% 1fr 10% 10%;
+  grid-template-columns: 15% 5% 5% 10% 1fr 30%;
   justify-content: start;
   gap: 20px;
 }
 
 .navbar {
-  background-color: #23252B;
+  background-color: #23252b;
   max-width: max-content;
   height: 60px;
   position: fixed;
@@ -25,61 +25,87 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-a{
+a {
   color: white;
   font-size: 20px;
   text-decoration: none;
-  
 }
 
-.Crun{
+.Crun {
   max-width: 70%;
   position: relative;
-  top: 10px;
+  top: 16px;
   left: 30px;
-  
 }
 
 .tdsS {
-  padding-top: 10px;
+  padding-top: 16px;
   grid-column: 2;
 }
 
 .tdsF {
-  padding-top: 10px;
-  grid-column: 3;
-
+  padding-top: 16px;
 }
 
 .iconzinhos {
+  display: flex;
+  z-index: 999;
+  grid-column: 6;
+  max-width: max-content;
+  width: 160px;
+  justify-self: end;
+}
 
+.lupa {
+  max-width: 25%;
+  padding-top: 18px;
+  justify-self: start;
+  grid-row: 1;
+  position: relative;
+  right: 60px;
+  height: 20px;
+}
+
+.salvaB {
+  max-width: 25%;
+  position: relative;
+  right: 60px;
+  height: 20px;
+  padding-top: 18px;
+  padding-left: 40px;
+}
+
+.caixinha {
+  display: flex;
+  max-width: max-content;
+  width: 160px;
+  position: relative;
+  right: 40px;
 }
 
 .user {
-  display: grid;
-  justify-items: center;
-  grid-column: 6;
+
 }
 
 .iconuser {
+  max-width: 28%;
+  padding-top: 6px;
   position: relative;
-  top: 5px;
-  max-width: 30%;
-  padding-right: 30px;
+  right: 40px;
 }
 
 .setinha {
-position: relative;
-bottom: 30px;
-left: 20px;
-font-size: 24px;
-cursor: pointer;
+  font-size: 20px;
+  cursor: pointer;
+  position: relative;
+  right: 30px;
+  top: 16px;
 }
 /* footer */
 
 .foot {
   margin-top: 40px;
-  display: grid; 
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 60px;
   color: #a0a0a0;
@@ -99,9 +125,7 @@ hr {
 .degrade {
   display: grid;
   justify-items: center;
-  background-image: linear-gradient(
-    #000000, #213944
-  );
+  background-image: linear-gradient(#000000, #213944);
 }
 
 .centra {
@@ -130,7 +154,10 @@ hr {
   color: #a0a0a0;
 }
 
-.box1 > p, .box2 > p, .box3 > p, .box4 > p {
+.box1 > p,
+.box2 > p,
+.box3 > p,
+.box4 > p {
   margin-top: 5px;
   font-size: 14px;
 }

@@ -28,6 +28,8 @@ p {
   display: flex;
   justify-self: start;
   grid-column: 1/1;
+  position: relative;
+  right: -60px;
 }
 
 .upbar {
@@ -84,4 +86,10 @@ p {
 .leg{
   color: #7e7e80;
   margin-bottom: 20px;
+}
+.lupa{
+  cursor: pointer;
+}
+.salvaB{
+  cursor: pointer;
 }

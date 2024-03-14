@@ -2,12 +2,30 @@
   margin-top: 40px;
   display: grid;
   padding: 70px;
+  position: relative;
+  bottom: 150px;
 }
 
 .modelo {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-bottom: 50px;
+}
+
+.conteudo {
+  padding-top: 60px;
+  position: relative;
+  z-index: -999;
+  width: 60%;
+  height: 500px;
+  padding-left: 300px;
+}
+
+.play {
+  padding-left: 80px;
+  position: relative;
+  bottom: 95px;
+  cursor: pointer;
 }
 
 .modeloLeft {
@@ -193,12 +211,14 @@ h2 {
   position: relative;
   left: 90px;
   top: 20px;
+  cursor: pointer;
 }
 .ex1 {
   font-size: 14px;
   color: #548094;
   position: relative;
   left: 90px;
+  cursor: pointer;
 }
 .gojo {
   position: relative;
@@ -218,11 +238,23 @@ h2 {
 input:checked + .checkbox p {
   display: none;
 }
+input:checked + .checkbox p{
+  display: block;
+}
 input:checked + .checkbox hr {
+  display: none;
+}
+input:checked + .checkbox hr{
+  display: block;
+}
+hr{
   display: none;
 }
 
 input {
+  display: none;
+}
+.pp{
   display: none;
 }
 .audio {
@@ -244,4 +276,16 @@ input {
 }
 .mos{
   color: #adaeb1;
+  cursor: pointer;
 }
+
+.boxImg {
+  max-width: max-content;
+}
+.lupa{
+  cursor: pointer;
+}
+.salvaB{
+  cursor: pointer;
+}
+
