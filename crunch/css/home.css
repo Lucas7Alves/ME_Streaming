@@ -79,10 +79,20 @@ h2 {
 }
 
 .top1 {
+
   height: 307px;
   width: 204px;
   }
-  
+
+  .outline {
+    transition: all .5s;
+    border: 10px solid transparent;
+  }
+
+  .outline:hover {
+    border: 1px solid #ffffff;
+  }
+
   .a-img {
     display: flex;
   }
