@@ -1,0 +1,274 @@
+.geral {
+  margin-top: 40px;
+  display: grid;
+  padding: 70px;
+}
+
+.modelo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 50px;
+}
+
+.modeloLeft {
+  max-width: 50%;
+  padding-left: 150px;
+  width: 190px;
+  position: relative;
+  left: 680px;
+  bottom: -85px;
+}
+.modeloRight {
+  position: relative;
+  right: 500px;
+}
+
+#titulo {
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.light {
+  opacity: 0.7;
+  font-weight: 100;
+}
+
+.ano {
+  font-size: 18px;
+}
+
+#categoria {
+  font-size: 12px;
+  padding: 8px;
+  background-color: #2a2f3e;
+  border-radius: 14px;
+}
+
+.txtArea {
+  background-color: #141519;
+  border: #36373a solid 1px;
+  padding: 10px;
+}
+.tituloo {
+  font-size: 17px;
+  color: orangered;
+  cursor: pointer;
+}
+.num {
+  font-size: 12px;
+  color: #adaeb1;
+  cursor: default;
+}
+.barra {
+  color: #adaeb1;
+}
+.idade {
+  width: 20px;
+}
+.ling {
+  font-size: 15px;
+  color: #adaeb1;
+  position: relative;
+  left: 6px;
+  top: -4px;
+}
+.p {
+  font-size: 11px;
+  position: relative;
+  left: 6px;
+  top: -5px;
+}
+.salvar {
+  width: 18px;
+  position: relative;
+  left: 580px;
+  bottom: -37px;
+  cursor: pointer;
+}
+.lançou {
+  font-size: 15px;
+}
+.like {
+  width: 25px;
+  cursor: pointer;
+}
+.dislike {
+  width: 25px;
+  position: relative;
+  top: 1.5px;
+  left: 36px;
+  cursor: pointer;
+}
+.li {
+  font-size: 15px;
+  position: relative;
+  left: 4px;
+  color: #c8c8c9;
+  top: -3px;
+}
+.li1 {
+  font-size: 15px;
+  position: relative;
+  left: 40px;
+  top: -4px;
+  color: #c8c8c9;
+}
+.comp {
+  width: 20px;
+  position: relative;
+  left: 477px;
+  cursor: pointer;
+}
+.coroa {
+  width: 20px;
+  position: relative;
+  top: 3px;
+}
+.coment {
+  color: #fab818;
+}
+.mais {
+  width: 25px;
+  position: relative;
+  left: 400px;
+  top: 7px;
+  cursor: pointer;
+}
+.m {
+  position: relative;
+  left: 405px;
+  color: #adaeb1;
+  cursor: pointer;
+}
+.comentar {
+  width: 200px;
+  cursor: pointer;
+  position: relative;
+  top: 40px;
+  right: 201px;
+}
+.icoon {
+  width: 70px;
+  position: relative;
+  right: 94px;
+  bottom: -130px;
+}
+.comentarios {
+  position: relative;
+  left: 90px;
+}
+.t {
+  font-size: 13px;
+  color: #adaeb1;
+  position: relative;
+  left: 25px;
+}
+.c {
+  position: relative;
+  left: 20px;
+}
+.icon1 {
+  width: 70px;
+  position: relative;
+  right: 8px;
+  top: 25px;
+}
+.com1 {
+  position: relative;
+  left: 90px;
+  bottom: 8px;
+}
+.com2 {
+  position: relative;
+  left: 90px;
+}
+.coments {
+  width: 220px;
+  position: relative;
+  left: 95px;
+  top: -15px;
+}
+.coments1 {
+  width: 220px;
+  position: relative;
+  left: 95px;
+}
+.ex {
+  font-size: 14px;
+  color: #548094;
+  position: relative;
+  left: 90px;
+  top: 20px;
+}
+.ex1 {
+  font-size: 14px;
+  color: #548094;
+  position: relative;
+  left: 90px;
+}
+.gojo {
+  position: relative;
+  top: -40px;
+}
+
+.mdcom {
+  position: relative;
+  left: 100px;
+}
+.i {
+  font-size: 21px;
+  position: relative;
+  right: 30px;
+}
+.pi {
+  position: relative;
+  top: -40px;
+  right: 40px;
+}
+input:checked + .checkbox p {
+  display: none;
+}
+input:checked + .checkbox hr {
+  display: none;
+}
+
+input {
+  display: none;
+}
+.audio {
+  position: relative;
+  left: 360px;
+}
+.id {
+  position: relative;
+  left: 444px;
+}
+.idd {
+  position: relative;
+  left: 64px;
+  top: 20px;
+}
+.pt {
+  position: relative;
+  left: 340px;
+}
+.mos {
+  color: #adaeb1;
+}
+.eu {
+  position: relative;
+  left: 50px;
+}
+.euu {
+  position: relative;
+  left: 70px;
+}
+.sino {
+  font-size: 19px;
+}
+.prox {
+  font-size: 18px;
+  position: relative;
+  top: -340px;
+  left: 668px;
+}
