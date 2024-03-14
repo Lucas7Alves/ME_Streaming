@@ -6,8 +6,12 @@ h2 {
   max-width: max-content;
 }
 
+.film {
+  width: 200px;
+}
+
 .top1 {
-max-width: 50%;
+  max-width: 50%;
 }
 
 .banner {
@@ -86,24 +90,24 @@ max-width: 50%;
   row-gap: 20px;
 }
 
-a{
+a {
   color: white;
   font-size: 20px;
   text-decoration: none;
 }
 
-.ver{
+.ver {
   color: black;
-  background-color: #F47521;
-  padding: 14px;
+  background-color: #f47521;
+  padding: 8px 12px 8px 8px;
   grid-column: 1/2;
   justify-self: start;
-  width: 320px;
+  width: 250px;
   position: relative;
   left: 20px;
   top: 200px;
 }
-.sinopse{
+.sinopse {
   text-align: start;
   grid-column: 1/2;
   position: relative;
@@ -111,39 +115,56 @@ a{
   top: 200px;
 }
 
-.Animeprin{
+.Animeprin {
   display: grid;
   grid-template-columns: 2fr 2fr;
   position: relative;
 }
-.jujutsu{
+.jujutsu {
   width: 500px;
   position: relative;
   left: 20px;
   top: 200px;
 }
-.idade{
+.idade {
   width: 30px;
   grid-column: 1/2;
   position: absolute;
   top: 340px;
   left: 20px;
 }
-.ling{
+.ling {
   text-align: start;
   grid-column: 1/2;
   position: relative;
   left: 60px;
   top: 200px;
-
 }
-.seta{
+.seta {
   font-size: 30px;
   position: relative;
   bottom: -3px;
 }
-.com{
+.com {
   position: relative;
   left: 10px;
+  font-size: 16px;
 }
-
+.salvarr {
+  grid-column: 1/2;
+  width: 70px;
+  height: 66.4;
+  position: relative;
+  top: 139px;
+  left: 290px;
+}
+.lupa{
+  cursor: pointer;
+}
+.salvaB{
+  cursor: pointer;
+}
+h2{
+  position: relative;
+  left: 50px;
+}

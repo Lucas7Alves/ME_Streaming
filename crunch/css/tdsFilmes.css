@@ -39,12 +39,16 @@ p {
 #title {
   margin-top: 90px;
   margin-bottom: 50px;
+  max-width: max-content;
 }
 
 #serie {
   display: flex;
   justify-self: start;
   grid-column: 1/1;
+  position: relative;
+  right: 1px;
+  left: 55px;
 }
 
 .upbar {
@@ -82,4 +86,10 @@ p {
   font-size: 14px;
   line-height: 18px;
   justify-items: end;
+}
+.lupa{
+  cursor: pointer;
+}
+.salvaB{
+  cursor: pointer;
 }
