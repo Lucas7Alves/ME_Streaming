@@ -59,6 +59,15 @@ h2 {
   position: relative;
   bottom: 10px;
 }
+.legenda{
+  color: #adaeb1;
+  position: relative;
+  bottom: 20px;
+}
+.titu{
+  position: relative;
+  bottom: 10px;
+}
 
 .salvarr {
   grid-column: 1;
