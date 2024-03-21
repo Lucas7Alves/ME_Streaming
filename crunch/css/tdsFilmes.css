@@ -57,8 +57,8 @@ p {
 
 .upbar {
   display: grid;
-  gap: 100px;
   justify-content: center;
+  gap: 100px;
 }
 
 .grid {
@@ -106,6 +106,6 @@ p {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
-div{
+div .container{
   gap: 30px;
 }
