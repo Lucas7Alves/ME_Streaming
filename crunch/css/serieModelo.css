@@ -340,3 +340,8 @@ input {
 .salvaB{
   cursor: pointer;
 }
+
+.video {
+  padding-top: 60px;
+  margin-bottom: 100px;
+}

@@ -64,11 +64,10 @@ h2 {
 .legenda {
   color: #adaeb1;
   position: relative;
-  bottom: 20px;
 }
 .titu {
   position: relative;
-  bottom: 10px;
+  top: 10px;
 }
 
 .salvarr {
@@ -82,7 +81,7 @@ h2 {
 
 .top_3 {
   max-width: max-content;
-  margin-top: 70px;
+  margin-top: 370px;
   display: grid;
   grid-template-rows: 2;
   padding-top: 250px;
@@ -166,12 +165,7 @@ a {
   grid-template-columns: 2fr 2fr;
   position: relative;
 }
-.jujutsu {
-  width: 500px;
-  position: relative;
-  left: 20px;
-  top: 200px;
-}
+
 .idade {
   width: 30px;
   grid-column: 1/2;
@@ -207,7 +201,8 @@ a {
 }
 
 .outline:hover {
-  border: 1px solid #ffffff;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
 .outline1:hover {
   -webkit-transform: scale(1.2);
@@ -217,15 +212,91 @@ a {
 .anuncio {
   display: block;
   padding-left: 70px;
+  margin-top: 30px;
 }
 
 .promo {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-left: 70px;
+  justify-content: center;
+  padding-left: 130px;
+  padding-right: 130px;
+  margin-top: 40px;
+  margin-bottom: 100px;
 }
 
 .promoImg {
-  width: 100%;
+  width: 90%;
   height: 100%;
+}
+
+.seriePromo {
+  color: #1bb1bb;
+}
+
+.verPromo {
+  display: flex;
+}
+
+.btnAdd {
+  display: flex;
+  position: relative;
+  left: 350px;
+  bottom: 25px;
+}
+.verr {
+  position: relative;
+  top: 40px;
+  color: black;
+  background-color: #f47521;
+  padding: 3px 8px 4px 8px;
+  justify-self: start;
+  width: 300px;
+  max-height: 50px;
+}
+
+.fim {
+  display: grid;
+  justify-content: center;
+}
+
+.gatinho {
+  width: 70%;
+  padding-left: 70px;
+}
+
+.txtFim {
+  padding-left: 80px;
+  margin: 0px;
+  font: 100;
+}
+
+.proLado {
+  position: relative;
+  left: 30px;
+}
+.juju {
+  max-width: 550px;
+  max-height: 150px;
+  position: relative;
+  bottom: 580px;
+  left: 35px;
+}
+
+.btnfim {
+  border: 3px solid #ff944d;
+  display: flex;
+  max-width: 150px;
+  padding: 10px 20px 10px 20px;
+  justify-content: center;
+  color: #ff944d;
+  font-size: 15px;
+}
+
+.paibtn {
+  margin-top: 10px;
+  display: grid;
+  justify-content: center;
+  padding-right: 30px;
 }

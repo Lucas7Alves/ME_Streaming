@@ -9,7 +9,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 4;
-  margin-top: 60px;
+  margin-top: 70px;
   justify-items: center;
   padding: 0px 60px 0px 60px;
   margin-bottom: 200px;
@@ -21,6 +21,8 @@ body {
 
 .leg {
   color: #7e7e80;
+  position: relative;
+  top: 20px;
 }
 
 h1 {
@@ -34,6 +36,8 @@ h1 {
 p {
   margin: 0px;
   font-family: "Lato", sans-serif;
+  position: relative;
+  top: 14px;
 }
 
 #title {
@@ -92,4 +96,16 @@ p {
 }
 .salvaB{
   cursor: pointer;
+}
+.outline {
+  transition: all 0.2s;
+  border: 10px solid transparent;
+}
+
+.outline:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+div{
+  gap: 30px;
 }

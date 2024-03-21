@@ -17,6 +17,8 @@ h1 {
 p {
   margin: 0px;
   font-family: "Lato", sans-serif;
+  position: relative;
+  top: 6px;
 }
 
 #title {
@@ -86,10 +88,21 @@ p {
 .leg{
   color: #7e7e80;
   margin-bottom: 20px;
+  position: relative;
+  top: 13px;
 }
 .lupa{
   cursor: pointer;
 }
 .salvaB{
   cursor: pointer;
+}
+.outline {
+  transition: all 0.2s;
+  border: 10px solid transparent;
+}
+
+.outline:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }

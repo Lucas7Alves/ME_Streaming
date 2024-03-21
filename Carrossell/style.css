@@ -1,106 +1,166 @@
-body{
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: black;
+body {
+ 
 }
-.slider{
-  width: 800px;
-  height: 500px;
+.slider {
+  width: 100%;
+  height: 600px;
   overflow: hidden;
   position: absolute;
-  border-radius: 10px;
+  top: 60px;
 }
 
-.navigation-bar{
+.navigation-bar {
   position: absolute;
   bottom: 20px;
   display: flex;
   left: 50%;
   transform: translate(-50%);
 }
-input{
+input {
   display: none;
 }
-.manual-btn{
+.manual-btn {
   border: 2px solid white;
-  padding: 10px;
+  padding: 2px;
   border-radius: 20px;
   cursor: pointer;
+  width: 30px;
+  height: 3px;
+  position: relative;
+  right: 530px;
+  bottom: 100px;
 }
-.manual-btn:not(:last-child){
-  margin-right: 40px;
+.manual-btn:not(:last-child) {
+  margin-right: 20px;
 }
-.manual-btn:hover{
-  background: orangered;
+.manual-btn:hover {
+  background: #FF944D;
   transition: 0.4s;
 }
-.slides{
+
+.navigation-auto div {
+  border: 2px solid white;
+  padding: 2px;
+  width: 30px;
+  border-radius: 20px;
+  height: 3px;
+  cursor: pointer;
+  position: relative;
+  right: 530px;
+  bottom: 100px;
+}
+.navigation-auto div:not(:last-child) {
+  margin-right: 20px;
+}
+
+.slides {
   display: flex;
   width: 600%;
   height: 100%;
+  z-index: -9999;
 }
-.slide{
+.slide {
   width: 16.6666666667%;
   transition: 0.5s;
 }
-.slide img{
+.slide img {
   width: 100%;
   height: 100%;
 }
-#radio1:checked ~ .first{
+#radio1:checked ~ .first {
   margin-left: 0;
 }
-#radio2:checked ~ .first{
+#radio2:checked ~ .first {
   margin-left: -16.6666666667%;
 }
-#radio3:checked ~ .first{
+#radio3:checked ~ .first {
   margin-left: -33.3333333334%;
 }
-#radio4:checked ~ .first{
+#radio4:checked ~ .first {
   margin-left: -50.0000000001%;
 }
-#radio5:checked ~ .first{
+#radio5:checked ~ .first {
   margin-left: -66.6666666668%;
 }
-#radio6:checked ~ .first{
+#radio6:checked ~ .first {
   margin-left: -83.3333333335%;
 }
-.navigation-auto{
+.navigation-auto {
   position: absolute;
   bottom: 20px;
   display: flex;
   left: 50%;
   transform: translate(-50%);
 }
-.navigation-auto div{
-  border: 2px solid white;
-  padding: 10px;
-  border-radius: 20px;
-  cursor: pointer;
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+  background-color: #FF944D;
 }
-.navigation-auto div:not(:last-child){
-  margin-right: 40px;
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+  background-color: #FF944D;
 }
-#radio1:checked ~ .navigation-auto .auto-btn1{
-  background-color: orangered;
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+  background-color: #FF944D;
 }
-#radio2:checked ~ .navigation-auto .auto-btn2{
-  background-color: orangered;
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+  background-color: #FF944D;
 }
-#radio3:checked ~ .navigation-auto .auto-btn3{
-  background-color: orangered;
+#radio5:checked ~ .navigation-auto .auto-btn5 {
+  background-color: #FF944D;
 }
-#radio4:checked ~ .navigation-auto .auto-btn4{
-  background-color: orangered;
+#radio6:checked ~ .navigation-auto .auto-btn6 {
+  background-color: #FF944D;
 }
-#radio5:checked ~ .navigation-auto .auto-btn5{
-  background-color: orangered;
+.blue {
+  max-width: 550px;
+  max-height: 95px;
+  position: relative;
+  bottom: 520px;
+  left: 35px;
+  
 }
-#radio6:checked ~ .navigation-auto .auto-btn6{
-  background-color: orangered;
+.lingprin {
+  position: relative;
+  bottom: 510px;
+  left: 68px;
+  color: white;
+}
+.idadeprin {
+  position: relative;
+  bottom: 470px;
+  right: 515px;
+  max-width: 25px;
+  max-height: 25px;
+}
+.sino {
+  font-size: 14px;
+  position: relative;
+  bottom: 500px;
+  left: 37px;
+  color: white;
 }
 
+.shin {
+  max-height: 150px;
+  max-width: 550px;
+  position: relative;
+  bottom: 500px;
+  left: 20px;
+}
+.juju {
+  max-width: 550px;
+  max-height: 150px;
+  position: relative;
+  bottom: 500px;
+  left: 35px;
+}
+.spy {
+  max-height: 150px;
+}
+.doutor {
+  max-width: 550px;
+  max-height: 150px;
+  position: relative;
+  bottom: 500px;
+  left: 5px;
+}
