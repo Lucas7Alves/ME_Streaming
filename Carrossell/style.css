@@ -139,14 +139,38 @@ input {
   left: 37px;
   color: white;
 }
-
+/* shingeki */
 .shin {
   max-height: 150px;
   max-width: 550px;
   position: relative;
-  bottom: 500px;
+  bottom: 550px;
   left: 20px;
 }
+
+.iddshin {
+  position: relative;
+  bottom: 520px;
+  right: 515px;
+  max-width: 25px;
+  max-height: 25px;
+}
+
+.lingshin {
+  position: relative;
+  bottom: 561px;
+  left: 68px;
+  color: white;
+}
+
+.sinoshin {
+  font-size: 14px;
+  position: relative;
+  bottom: 550px;
+  left: 37px;
+  color: white;
+} 
+
 .juju {
   max-width: 550px;
   max-height: 150px;
@@ -154,13 +178,72 @@ input {
   bottom: 500px;
   left: 35px;
 }
+
+/* spy */
+
 .spy {
+  max-width: 550px;
+  max-height: 95px;
+  position: relative;
+  bottom: 560px;
+  left: 35px;
   max-height: 150px;
 }
+
+.iddspy {
+  position: relative;
+  bottom: 520px;
+  right: 515px;
+  max-width: 25px;
+  max-height: 25px;
+}
+
+.lingspy {
+  position: relative;
+  bottom: 561px;
+  left: 68px;
+  color: white;
+}
+
+.sinospy {
+  font-size: 14px;
+  position: relative;
+  bottom: 550px;
+  left: 37px;
+  color: white;
+} 
+
+
+
+/* doutor */
+
 .doutor {
   max-width: 550px;
   max-height: 150px;
   position: relative;
-  bottom: 500px;
+  bottom: 560px;
   left: 5px;
+}
+
+.iddstone {
+  position: relative;
+  bottom: 520px;
+  right: 515px;
+  max-width: 25px;
+  max-height: 25px;
+}
+
+.lingstone {
+  position: relative;
+  bottom: 562px;
+  left: 68px;
+  color: white;
+}
+
+.sinodr {
+  font-size: 14px;
+  position: relative;
+  bottom: 550px;
+  left: 37px;
+  color: white;
 }
