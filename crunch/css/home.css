@@ -71,11 +71,11 @@ h2 {
 }
 
 .salvarr {
-  grid-column: 1;
   position: relative;
-  top: 140px;
-  max-width: 70px;
-  left: 340px;
+  bottom: 11px;
+  max-width: 60px;
+  max-height: 60px;
+  left: 320px;
   cursor: pointer;
 }
 
