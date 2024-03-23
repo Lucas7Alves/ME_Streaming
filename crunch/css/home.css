@@ -70,15 +70,6 @@ h2 {
   top: 10px;
 }
 
-.salvarr {
-  position: relative;
-  bottom: 11px;
-  max-width: 60px;
-  max-height: 60px;
-  left: 320px;
-  cursor: pointer;
-}
-
 .top_3 {
   max-width: max-content;
   margin-top: 370px;
@@ -180,15 +171,7 @@ a {
   left: 60px;
   top: 200px;
 }
-.seta {
-  font-size: 30px;
-  position: relative;
-  bottom: -3px;
-}
-.com {
-  position: relative;
-  left: 10px;
-}
+
 .tito {
   position: relative;
   left: 60px;

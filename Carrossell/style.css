@@ -247,3 +247,98 @@ input {
   left: 37px;
   color: white;
 }
+
+.verCarrossel {
+  position: relative;
+  top: 60px;
+  color: black;
+  background-color: #f47521;
+  padding: 3px 8px 4px 8px;
+  justify-self: start;
+  width: 300px;
+  max-height: 50px;
+}
+
+.verPromo {
+  display: flex;
+}
+
+.com {
+  position: relative;
+  left: 10px;
+}
+
+.seta {
+  font-size: 30px;
+  position: relative;
+  bottom: -3px;
+}
+
+.verCarrosselStone {
+  position: relative;
+  top: 40px;
+  color: black;
+  background-color: #f47521;
+  padding: 3px 8px 4px 8px;
+  justify-self: start;
+  width: 300px;
+  max-height: 50px;
+}
+
+.verCarrosselChain {
+  position: relative;
+  top: 80px;
+  color: black;
+  background-color: #f47521;
+  padding: 3px 8px 4px 8px;
+  justify-self: start;
+  width: 300px;
+  max-height: 50px;
+}
+
+.verCarrosselShin {
+  position: relative;
+  top: 24px;
+  color: black;
+  background-color: #f47521;
+  padding: 3px 8px 4px 8px;
+  justify-self: start;
+  width: 300px;
+  max-height: 50px;
+}
+
+.salvarr {
+  position: relative;
+  top: 10px;
+  max-width: 60px;
+  max-height: 60px;
+  left: 320px;
+  cursor: pointer;
+}
+
+.salvarshin {
+  position: relative;
+  bottom: 25px;
+  max-width: 60px;
+  max-height: 60px;
+  left: 320px;
+  cursor: pointer;
+}
+
+.salvarchain {
+  position: relative;
+  top: 30px;
+  max-width: 60px;
+  max-height: 60px;
+  left: 320px;
+  cursor: pointer;
+}
+
+.salvarDJS {
+    position: relative;
+    bottom: 10px;
+    max-width: 60px;
+    max-height: 60px;
+    left: 320px;
+    cursor: pointer;
+}
